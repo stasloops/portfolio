@@ -1,0 +1,118 @@
+.work{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.work-title{
+    font-size: calc(30px + 2vmin);
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+
+.work-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-item{
+   display: grid;
+   position: relative;
+}
+
+.work-blur{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 70%;
+    height: 45%;
+    filter: blur(50px);
+    background-color: #fff;
+    z-index: -1;
+}
+
+.work-img{
+    width:  calc(230px + 5vmin);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.work-img:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.work-item__title{
+    font-weight: 700;
+    font-size: calc(30px + 0.5vmin);
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.work-button__link{
+    margin: auto;
+}
+
+.work-button{
+    background-color: #FFB7B7;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    width: calc(180px + 1vmin);
+    height: calc(34px + 1vmin);;
+    font-weight: 700;
+    font-size: calc(11px + 0.8vmin);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: auto;
+   
+}
+
+.work-button__two{
+    cursor: pointer;
+    transition: 0.4s;
+    margin: auto;
+    width: calc(180px + 1vmin);
+    height: calc(34px + 1vmin);;
+    font-weight: 700;
+    font-size: calc(11px + 0.8vmin);
+    font-family: 'Roboto', sans-serif;
+    background-color: #090909;
+    border-radius: 40px;
+    border: 2px solid #FFB7B7;
+    color: #FFB7B7;
+    margin-top: 8px;
+}
+
+.work-button__two:hover{
+    background-color: #FFB7B7;
+    color: #090909;
+    transition: 0.3s;
+}
+
+.work-button:hover{
+    background-color: #ffc8c8;
+    transition: 0.2s;
+}
+
+
+.two{
+    transform: translate(0, 37%);
+}
+
+@media (max-width: 1024px) {
+
+    .work-items{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .work-title{
+        font-size: calc(30px + 2.2vmin);
+    }
+}

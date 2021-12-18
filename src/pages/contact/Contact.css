@@ -1,0 +1,10 @@
+.contact{
+    position: relative;
+    margin-top: 10vmin;
+    height: 400px;
+}
+
+.contact-title{
+    font-size: calc(30px + 2vmin);
+    margin-left: 15px;
+}

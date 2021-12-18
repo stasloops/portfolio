@@ -1,0 +1,43 @@
+body{
+  background-color: #090909;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+ 
+}
+
+.App{
+  overflow: hidden;
+}
+
+.container{
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  
+}
+
+
+.pink{
+  color: #FFB7B7;
+}
+
+.blue{
+  color: #61DAFB;
+}
+
+.yellow{
+  color: #F7E01D;
+}
+
+.k{
+  color: #d6957a;
+}
+
+li{
+  list-style: none;
+}
+
+.start{
+  height: 100vh;
+  position: relative;
+}

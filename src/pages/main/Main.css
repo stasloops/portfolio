@@ -1,0 +1,50 @@
+.main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.main-content{
+    margin-left: 10px;
+}
+
+.main-logo{
+    font-weight: 300;
+    font-size: calc(8px + 0.6vmin);
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: calc(30px + 2.2vmin);
+    margin: 0;
+}
+
+.main-text{
+    font-weight: 400;
+    font-size: calc(14px + 1vmin);
+    color: #727272;
+    margin: 8px 0 24px 0;
+}
+
+
+.main-button{
+    background-color: #FFB7B7;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    width: calc(130px + 9vmin);
+    height: calc(25px + 1.8vmin);;
+    font-weight: 700;
+    font-size: calc(11px + 0.8vmin);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.main-button:hover{
+    background-color: #ffc8c8;
+    transition: 0.2s;
+}
