@@ -43,6 +43,25 @@ const Work = () => {
                     </a>
                 </div>
             </div>
+            <div className="work-items__two">
+                <div className="work-item three">
+                    <img className="work-img" src="img/trello 1.png" alt="img"/>
+                    <div className="work-blur"></div>
+                        <p className="work-item__title">
+                            Trello
+                        </p>
+                    <a className="work-button__link" target="_blank" href="https://dont-trello-fsoaxv78j-stasloops.vercel.app/">
+                        <button className="work-button">
+                        VISIT
+                        </button>
+                    </a>
+                    <a className="work-button__link" target="_blank" href="https://github.com/stasloops/dont-trello">
+                        <button className="work-button__two">
+                        CODE
+                        </button>
+                    </a>
+                </div>
+            </div>
         </section>
     )
 }

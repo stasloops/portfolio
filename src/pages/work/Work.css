@@ -17,6 +17,12 @@
     justify-content: space-around;
 }
 
+.work-items__two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .work-item{
    display: grid;
    position: relative;
@@ -103,6 +109,10 @@
     transform: translate(0, 37%);
 }
 
+.three{
+    transform: translate(-50%, 20%);
+}
+
 @media (max-width: 1024px) {
 
     .work-items{
@@ -110,6 +120,18 @@
        flex-direction: column;
        justify-content: center;
        align-items: center;
+    }
+
+    .work-items__two{
+        width: 100%;
+        height: calc(40vh + 500px) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three{
+        transform: translate(-0%, 20%);
     }
 
     .work-title{

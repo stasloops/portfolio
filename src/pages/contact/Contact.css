@@ -1,6 +1,6 @@
 .contact{
     position: relative;
-    margin-top: 10vmin;
+    margin-top: calc(20vmin + 100px) ;
     height: 400px;
 }
 
