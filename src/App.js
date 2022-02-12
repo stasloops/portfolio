@@ -4,6 +4,7 @@ import Contact from './pages/contact/Contact';
 import Header from './pages/header/Header';
 import Main from './pages/main/Main';
 import Work from './pages/work/Work';
+import ReduxTest from './reduxTest';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Contact />
       </div>
     </div>
+    {/* <ReduxTest /> */}
   </div>
   );
 }

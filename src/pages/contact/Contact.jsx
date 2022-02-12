@@ -7,6 +7,7 @@ const Contact = () => {
             <h3 className="contact-title">
                 Contact
             </h3>
+            Sorry only GitHub and Telegram
         </footer>
     )
 }
