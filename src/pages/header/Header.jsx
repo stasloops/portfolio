@@ -24,11 +24,11 @@ const Header = () => {
                     STAS...
                 </span>
             </Link>
-            <span onClick={headerButton} className="header-menu">
+            <div onClick={headerButton} className="header-menu">
                 <span className="header-menu__item header-menu__item-one"></span>
                 <span className="header-menu__item header-menu__item-two"></span>
                 <span className="header-menu__item header-menu__item-three"></span>
-            </span>
+            </div>
             <nav className="header-nav">
                 <ul className={state === true ? "header-nav__items-active" : "header-nav__items"}>
                     <li  className="header-nav__item">

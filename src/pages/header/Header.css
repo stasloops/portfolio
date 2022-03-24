@@ -103,8 +103,11 @@
 
     .header-menu{
         position: absolute;
+        width: 31px;
+        height: 20px;
         top: 5px;
-        right: 50px;
+        right: 0px;
+        z-index: 300;
     }
 
     .header-menu__item{
@@ -114,13 +117,14 @@
         background-color: #fff;
         border-radius: 2px;
         z-index: 300;
+       
     }
 
     .header-menu__item-two{
-     transform: translate(0, 220%);
+        margin-top: 9px;
     }
 
     .header-menu__item-three{
-        transform: translate(0, 440%);
+        margin-top: 18px;
     }
 }
