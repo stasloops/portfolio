@@ -9,17 +9,17 @@ const Work = () => {
             </h3>
             <div className="work-items">
                 <div className="work-item">
-                    <img className="work-img" src="img/search 1.png" alt="img"/>
+                    <img className="work-img" src="img/search-books.png" alt="img"/>
                     <div className="work-blur"></div>
                         <p className="work-item__title">
-                            Movie-search
+                            Books-search
                         </p>
-                    <a className="work-button__link" target="_blank" href="https://search-movie-lilac.vercel.app/">
+                    <a className="work-button__link" target="_blank" href="https://search-books-stasloops.vercel.app/">
                     <button className="work-button">
                         VISIT
                     </button>
                     </a>
-                    <a className="work-button__link" target="_blank" href="https://github.com/stasloops/search-movies">
+                    <a className="work-button__link" target="_blank" href="https://github.com/stasloops/search-books">
                         <button className="work-button__two">
                         CODE
                         </button>
